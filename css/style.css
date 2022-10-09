@@ -1,0 +1,204 @@
+/*колір основного тексту #212121;*/
+/*колір допоміжного тексту #757575;*/
+/*білий колір #FFFFFF;*/
+/*акцент  #2196F3;*/
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    /*колір-змінні*/
+    --main-color:#212121;
+    --secondary-color:#757575;
+    --akcent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --logo-secondary-color: #000000;
+    --hero-footer-background:#2F303A;
+    --background-team:#F5F4FA;
+    --button-hover:#188CE8;
+    --footer-contact-color:rgba(255, 255, 255, 0.6)
+
+}
+body{
+    background-color:var(--white-color);
+    font-family:var(--main-font);
+    color:var(--main-color);
+    font-size: 14px;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+ /*Шапка сайту*/
+.logo{
+    color: var(--akcent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+.logo-wrap{
+    color: var(--logo-secondary-color);
+}
+
+.site-nav{
+    color: var(--main-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+.site-nav:hover, .site-nav:focus{
+    color: var(--akcent-color);
+}
+.contacts-header {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts-header:hover,.contacts-header:focus {
+    color: var(--akcent-color);
+}
+/*Герой*/
+.hero{
+    background-color:var(--hero-footer-background) ;
+}
+.hero-text{
+    color:var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button{
+    background-color: var(--akcent-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border-color:transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-hover)
+}
+/*Наші переваги*/
+.features-tittle{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.features-text{
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*Чим займаємося*/
+.section-tittle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+/*Команда*/
+.team{
+    background-color:var(--background-team);
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+.team-text{
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.list-back{
+    background-color: var(--white-color);
+}
+
+/*Футер*/
+.footer{
+    background-color:var(--hero-footer-background) ;
+}
+.logo-footer {
+    color: var(--white-color);
+}
+.footer-address{
+    color: var(--white-color);
+    letter-spacing: 0.03em;
+    line-height:1.71;
+}
+.footer-contacts{
+    color:var(--footer-contact-color) ;
+    letter-spacing: 0.03em;
+    line-height:1.71;
+}
+.footer-contacts:hover, .footer-contacts:focus,.footer-address:hover,.footer-address:focus {
+    color:var(--akcent-color);
+}
+
+/*Портфоліо*/
+/*Проекти*/
+.filter-button{
+color: var(--main-color);
+border-color: transparent;
+cursor: pointer;
+background: var(--background-team);
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.filter-button:hover{
+color: var(--white-color);
+background: var(--akcent-color);
+}
+.section-project{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text{
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.current{
+    color: var(--akcent-color);
+}
