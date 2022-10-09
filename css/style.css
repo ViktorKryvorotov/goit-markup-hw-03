@@ -24,13 +24,27 @@ body{
     font-size: 14px;
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link {
     text-decoration: none;
     font-style: normal;
 }
+h1,h2,h3,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
  /*Шапка сайту*/
+ .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px dashed ;
+ }
 .logo{
     color: var(--akcent-color);
     font-family: 'Raleway';
@@ -64,19 +78,25 @@ body{
 }
 /*Герой*/
 .hero{
+    text-align: center;
     background-color:var(--hero-footer-background) ;
 }
 .hero-text{
+    margin-bottom: 30px;
     color:var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    background-color: aqua;
+
 }
 
 .hero-button{
+    border-radius: 4px;
+    padding: 10px 32px;
     background-color: var(--akcent-color);
     color: var(--white-color);
     cursor: pointer;
@@ -86,7 +106,6 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 .hero-button:hover,
@@ -94,7 +113,15 @@ body{
     background-color: var(--button-hover)
 }
 /*Наші переваги*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+
+}
 .features-tittle{
+    margin-top: 0;
+    margin-bottom: 10;
     color: var(--main-color);
     font-weight: 700;
     font-size: 14px;
@@ -120,7 +147,10 @@ body{
     margin: -1px;
 }
 /*Чим займаємося*/
+
 .section-tittle{
+    margin-bottom: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -128,7 +158,13 @@ body{
 }
 /*Команда*/
 .team{
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color:var(--background-team);
+}
+.section-tittle{
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .team-name{
     font-weight: 500;
