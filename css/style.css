@@ -32,18 +32,21 @@ body{
     text-decoration: none;
     font-style: normal;
 }
-h1,h2,h3,p{
+h3,p{
     margin-top: 0;
     margin-bottom: 0;
 }
 
-
- /*Шапка сайту*/
- .container{
+.container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: 2px dashed ;
+    outline: 2px dashed blueviolet;
+}
+
+ /*Шапка сайту*/
+ .page-header{
+    border-bottom: 1px #ECECEC;
  }
 .logo{
     color: var(--akcent-color);
@@ -82,6 +85,7 @@ h1,h2,h3,p{
     background-color:var(--hero-footer-background) ;
 }
 .hero-text{
+    margin-top: 0;
     margin-bottom: 30px;
     color:var(--white-color);
     font-weight: 900;
@@ -89,7 +93,6 @@ h1,h2,h3,p{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     background-color: aqua;
 
 }
@@ -115,9 +118,10 @@ h1,h2,h3,p{
 /*Наші переваги*/
 .section{
     padding-top: 94px;
-    padding-bottom: 94px;
-    
-
+    padding-bottom: 94px;    
+}
+.features{
+    padding-bottom: 0;
 }
 .features-tittle{
     margin-top: 0;
@@ -149,6 +153,7 @@ h1,h2,h3,p{
 /*Чим займаємося*/
 
 .section-tittle{
+    margin-top: 0;
     margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
@@ -158,14 +163,12 @@ h1,h2,h3,p{
 }
 /*Команда*/
 .team{
-  
+ 
     background-color:var(--background-team);
 }
-.section-tittle{
-    margin-top: 0;
-    margin-bottom: 50px;
-}
+
 .team-name{
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
