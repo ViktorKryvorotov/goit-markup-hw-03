@@ -48,6 +48,10 @@ h3,p{
  .page-header{
     border-bottom: 1px #ECECEC;
  }
+.nav-contacts{
+    align-items: center;
+    display: flex;
+}
 .logo{
     color: var(--akcent-color);
     font-family: 'Raleway';
@@ -60,8 +64,20 @@ h3,p{
 .logo-wrap{
     color: var(--logo-secondary-color);
 }
+.nav{
+    display: flex;
+    margin-left: 91px;
 
+}
+
+.nav .item +.item{
+    margin-left: 50px;
+}
 .site-nav{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--main-color);
     font-weight: 500;
     line-height: 1.14;
@@ -69,6 +85,13 @@ h3,p{
 }
 .site-nav:hover, .site-nav:focus{
     color: var(--akcent-color);
+}
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.contacts .item + .item{
+margin-left: 50px;
 }
 .contacts-header {
     color: var(--secondary-color);
@@ -85,7 +108,6 @@ h3,p{
     background-color:var(--hero-footer-background) ;
 }
 .hero-text{
-    margin-top: 0;
     margin-bottom: 30px;
     color:var(--white-color);
     font-weight: 900;
@@ -93,7 +115,6 @@ h3,p{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    background-color: aqua;
 
 }
 
@@ -119,6 +140,14 @@ h3,p{
 .section{
     padding-top: 94px;
     padding-bottom: 94px;    
+}
+.features-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-list .item{
+    width: 300px;
+    background-color: tomato;
 }
 .section.no-padding{
 padding-top: 0;
