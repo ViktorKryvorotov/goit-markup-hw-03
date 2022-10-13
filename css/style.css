@@ -43,7 +43,7 @@ h3,p{
     padding-left: 15px;
     padding-right: 15px;
     width: 1230px;
-    outline: 2px dashed blueviolet;
+    /* outline: 2px dashed blueviolet; */
 }
 
  /*Шапка сайту*/
@@ -219,6 +219,8 @@ padding-top: 0;
 
 .team-name{
     margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -226,6 +228,7 @@ padding-top: 0;
     
 }
 .team-text{
+    text-align: center;
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.19;
