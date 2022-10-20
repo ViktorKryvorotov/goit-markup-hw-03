@@ -70,12 +70,13 @@ img {
 }
 .nav{
     display: flex;
-    margin-left: 91px;
-
 }
 
 .nav .item +.item{
     margin-left: 50px;
+}
+.main-nav{
+    margin-left: 91px;
 }
 .site-nav{
     display: block;
@@ -98,6 +99,10 @@ img {
 margin-left: 50px;
 }
 .contacts-header {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--secondary-color);
     font-weight: 500;
     line-height: 1.14;
@@ -294,7 +299,6 @@ address{
 /*Портфоліо*/
 /*Проекти*/
 .filter-button{
-min-width: 130px;
 padding: 6px 25px;
 border-radius: 4px ;
 color: var(--main-color);
